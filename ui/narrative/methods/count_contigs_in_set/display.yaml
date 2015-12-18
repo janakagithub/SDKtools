@@ -1,9 +1,9 @@
 #
 # define display information
 #
-name: Count Contigs
+name: Compare Multiple Metabolic Models
 tooltip: |
-	Counts the number of contigs in a contig set.
+	Compute comparative analysis between multiple models.
 screenshots: []
 
 icon: icon.png
@@ -21,7 +21,7 @@ suggestions:
 		related:
 			[]
 		next:
-			[annotate_contigset]
+			[]
 
 #
 # Configure the display and description of parameters
@@ -29,11 +29,11 @@ suggestions:
 parameters :
     contigset_id :
         ui-name : |
-            Contig Set Id
+            Model Set
         short-hint : |
-            The contig set to examine
+            List of Models
         long-hint  : |
-            The contig set for which you want to retrieve the number of contigs.
+            List of models that you want the comparative analysis for.
 
 description : |
-	<p>This is a simple method designed to illustrate the KBase SDK. All it does is count the number of contigs in a contig set, but it uses most of the KBase apparatus in an end-to-end example.</p>
+	<p>Testing SDK method implimentation.</p>
