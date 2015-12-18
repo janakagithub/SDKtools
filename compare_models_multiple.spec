@@ -21,7 +21,7 @@ module compare_models_multiple {
 
 	typedef structure {
 	    	int core;
-		bool nonCore;
+		int nonCore;
 		string equation;
 		string role;
 		string ss;
