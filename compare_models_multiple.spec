@@ -20,7 +20,7 @@ module compare_models_multiple {
 	} ModelPegs;
 
 	typedef structure {
-	    	bool core;
+	    	int core;
 		bool nonCore;
 		string equation;
 		string role;
@@ -36,5 +36,5 @@ module compare_models_multiple {
 	Comparative analysis of multiple models
 	
 	*/
-	funcdef count_contigs(workspace_name,contigset_id) returns (CountContigsResults) authentication required;
+	funcdef count_contigs(workspace_name,modelSet_id) returns (ReactionInfo) authentication required;
 };
